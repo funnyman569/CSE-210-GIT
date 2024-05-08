@@ -3,6 +3,32 @@
     "version": "0.2.0",
     "configurations": [
 
+
+        {
+            "name": "DiceDistribution Project",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-sandbox-DiceDistribution",
+            "program": "${workspaceFolder}/sandbox/DiceDistribution/bin/Debug/net8.0/DiceDistribution.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/sandbox/DiceDistribution",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Sandbox Project",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-sandbox-Sandbox",
+            "program": "${workspaceFolder}/sandbox/Sandbox/bin/Debug/net8.0/Sandbox.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/sandbox/Sandbox",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
         {
             "name": "Sandbox Project",
             "type": "coreclr",
