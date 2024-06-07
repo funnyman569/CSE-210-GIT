@@ -16,7 +16,6 @@ class Wordz
         return _individualWord;
     }
 
-//Not sure if this is the right way to do it
     public string SetWordz(string word)
     {
        _individualWord = word;

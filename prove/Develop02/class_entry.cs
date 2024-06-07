@@ -1,4 +1,5 @@
 
+
 using System.Data.Common;
 using System.Formats.Tar;
 using System.Net.Mail;
@@ -17,7 +18,7 @@ class UserEntry
 
     public void add_to_dictionary(string entry)
     {
-        string date_today = DateTime.Now.ToString("yyyy-MM-dd");
+        string date_today = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
         dict.Add(date_today, entry);
     }
 

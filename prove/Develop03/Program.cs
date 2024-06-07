@@ -15,13 +15,13 @@ class Program
         string reference = program.BookNameChapterandVerse();
 
         List<string> scriptureList = program.WholeScripture();
+       int wordCount = scriptureList.Count();
        
        int exitKey = 0;
-
-       int wordCount = scriptureList.Count();
-    //Math.Floor((wordCount / 3.0) + 1)
-       double exitKeyCount = wordCount - 3;
+       double exitKeyCount = wordCount - 2;
        string userExit = "";
+
+       //continues to remove words 3ish at a time until the user types done or all of the words are underscored
        while (exitKey < exitKeyCount && userExit != "done")
        {
         Console.Clear();
@@ -50,6 +50,8 @@ class Program
 
 
     }
+
+    //Compiles the Book Name Chapter and Verse Together
      public String BookNameChapterandVerse()
     {
         System.Console.WriteLine("What is the name of the Scripture Book? ");
@@ -73,7 +75,7 @@ class Program
         return listofWords;
     }
     
-    //need to create variable "listofWords" to be assigneed to WholeScriputre()
+    //local function to update the list with words. Not really neccessary but its here
     List<string> RemoveWords(List<string> listofWords)
     {
         return scripture.UpdateListWithUnderscoredWord(listofWords);

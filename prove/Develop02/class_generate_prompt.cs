@@ -1,4 +1,5 @@
 
+
  class RandomPrompt
 {
     public void GetRandomPrompt()
