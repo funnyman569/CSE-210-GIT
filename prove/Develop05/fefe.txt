@@ -1,0 +1,10 @@
+Your Score: 135
+Your Goals
+[ ] Goal Name: poop 
+Goal Description: asdf 
+Goal Value: 345[ ] Goal Name: 100 
+Goal Description: afed 
+Goal Value: 44
+Goal Progress: 2 / 4Goal Name: fefsf 
+Goal Description: fesf 
+Goal Value: 23
